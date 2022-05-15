@@ -3,6 +3,11 @@ const board = document.querySelector("[data-board]");
 const winningMessageTextElement = document.querySelector("[data-winning-message-text]");
 const winningMessage = document.querySelector("[data-winning-message]");
 const restartButton = document.querySelector("[data-restart-button]");
+const checkbox = document.getElementById("checkbox");
+
+checkbox.addEventListener('change', () => {
+    document.body.classList.toggle("dark")
+})
 
 let isCircleTurn;
 
