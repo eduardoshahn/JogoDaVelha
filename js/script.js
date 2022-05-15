@@ -45,8 +45,6 @@ const endGame = (isDraw) => {
     winningMessage.classList.add("show-winning-message");
 }
 
-
-
 const checkForWin = (currentPlayer) =>{
     return winningCombinations.some((combination) => {
         return combination.every((index) => {
@@ -65,7 +63,6 @@ const placeMark = (cell, classToAdd) => {
     cell.classList.add(classToAdd);
 };
 
-
 const setBoardHoverClass = () => {
     board.classList.remove("circle");
     board.classList.remove("x");
@@ -76,6 +73,7 @@ const setBoardHoverClass = () => {
         board.classList.add('x')
     }
 }
+
 const swapTurns = () => {
     isCircleTurn = !isCircleTurn;
 
@@ -102,8 +100,6 @@ const handleClick = (e) => {
         ///Mudar simbolo
         swapTurns();
     }
-
-
 }
 
 startGame();
