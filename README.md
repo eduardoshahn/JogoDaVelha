@@ -1,5 +1,7 @@
 # Jogo da Velha (Tic-Tac-Toe)
 
+Link Hospedado: https://eshjogodavelha.web.app/
+
 Este projeto é uma implementação simples do **Jogo da Velha** (ou **Tic-Tac-Toe**) feito com **HTML**, **CSS** e **JavaScript**. O jogo permite que dois jogadores joguem no mesmo dispositivo, alternando entre os símbolos "X" e "O" até que um vença ou o jogo termine em empate.
 
 ## Funcionalidades
